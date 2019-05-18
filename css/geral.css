@@ -314,3 +314,10 @@ body {
 	margin-left: 4px;
 	border: 1px solid black;
 }
+
+.btc-preco {
+	background: #3f4;
+	padding: .2rem .5rem;
+	font-weight: bold;
+	border-radius: 2px;
+}
