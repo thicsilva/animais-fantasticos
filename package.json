@@ -1,0 +1,34 @@
+{
+    "name": "animais-fantasticos",
+    "version": "1.0.0",
+    "description": "Projeto aprendido no conteúdo do curso da Origamid, envolvendo javascript para manipulação do DOM",
+    "main": "index.html",
+    "scripts": {
+        "build": "webpack --mode production",
+        "dev": "webpack --mode development --watch"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/thicsilva/animais-fantasticos.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/thicsilva/animais-fantasticos/issues"
+    },
+    "homepage": "https://github.com/thicsilva/animais-fantasticos#readme",
+    "devDependencies": {
+        "@babel/cli": "^7.4.4",
+        "@babel/core": "^7.4.5",
+        "@babel/preset-env": "^7.4.5",
+        "eslint": "^5.16.0",
+        "eslint-config-airbnb-base": "^13.1.0",
+        "eslint-plugin-import": "^2.17.2",
+        "webpack": "^4.32.1",
+        "webpack-cli": "^3.3.2"
+    },
+    "dependencies": {
+        "@babel/polyfill": "^7.4.4",
+        "whatwg-fetch": "^3.0.0"
+    }
+}
